@@ -13,6 +13,7 @@ add_project_arguments([
   # use the C11 standard for the project (same as the Linux kernel)
   '-std=c11',
   '-fno-pie', '-fno-pic',
+   '-mno-relax',
   ],
   language : 'c')
 
